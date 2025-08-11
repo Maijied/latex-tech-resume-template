@@ -1,0 +1,161 @@
+%------------------------
+% Resume Template
+% Author : Md. Maizied Hasan Majumder
+% GitHub : https://github.com/Maijied
+% LinkedIn : https://www.linkedin.com/in/maizied
+% Email : mdshuvo40@gmail.com
+% License : MIT
+% Note: This file uses realistic dummy data. Replace fields marked with % <-- CHG
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc} % Ensure UTF-8 encoding
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+% PDF metadata
+\hypersetup{
+  pdfauthor={Alex J. Thompson},
+  pdftitle={Resume}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Alex J. Thompson}} & Email: \href{mailto:alex.thompson@example.com}{alex.thompson@example.com}\\
+  \href{https://www.linkedin.com/in/alexthompson}{LinkedIn: linkedin.com/in/alexthompson} & Mobile:~~~+1 (555) 987-6543 \\
+  \href{https://github.com/alexthompson}{GitHub: github.com/alexthompson} \\
+\end{tabular*}
+
+\section{Overview}
+\resumeSubHeadingListStart
+\resumeSubItem{About Me}{Dedicated and detail-oriented software developer specializing in Android and web application development, with strong analytical skills and exceptional communication abilities. Experienced in fostering collaboration among team members to achieve shared objectives efficiently and within budget. Proficient in conceptualizing innovative app solutions utilizing the latest technologies and design principles, combined with a strong emphasis on creativity. Committed to delivering viable and user-friendly applications for clients, while promoting a culture of cross-functional teamwork to enhance project success.}
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+      {Metropolitan Institute of Technology}{New York, NY}
+      {B.Sc in Computer Science and Engineering}{Sep 2014 - May 2018}
+      {\scriptsize \textit{\footnotesize{\newline{}\textbf{Courses:} Operating Systems, Data Structures, Analysis of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases}}}
+\resumeSubHeadingListEnd
+
+\section{Skills Summary}
+\resumeSubHeadingListStart
+\resumeSubItem{Languages}{~~~~~~PHP, Python, JavaScript, C\#, Java, jQuery \& C++ }
+\resumeSubItem{Frameworks}{~~~~React Native, Angular, Laravel, Lumen, CodeIgniter, Zend}
+\resumeSubItem{Database}{~~~~~~~~MySQL, SQLite, Firebase}
+\resumeSubItem{Platforms}{~~~~~~~Web, Android Studio, Unity, Arduino}
+\resumeSubItem{Skills}{~~~~~~~~~~~~~~HTML5, CSS3, Bootstrap, Materialize, Smarty, API Gateway, Unity 3D Game Engine \& Ajax}
+\resumeSubItem{Tools}{~~~~~~~~~~~~~~Git, SVN, Sourcetree, Jira \& CI/CD}
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubheading
+    {TechSolutions Ltd}{New York, USA · Hybrid/Remote}
+    {Software Engineer (Full-time)}{June 2023 - Present}
+    \resumeItemListStart
+        \item {Conducted requirement analysis and database design, collaborated with team members, implemented new features, resolved bugs, performed code reviews, merged contributions, and refactored code to improve system functionality and maintain quality.}
+    \resumeItemListEnd
+
+\resumeSubheading
+	{Innovatech Systems}{Chicago, IL}
+	{Full Stack Software Engineer (Full-time)}{June 2022 - May 2023}
+	\resumeItemListStart
+        \item {Developed full-stack web apps for data processing, analysis, and visualization. Created innovative software solutions by analyzing performance criteria. Assisted support teams in modifying code to resolve production issues. Worked closely with coordinators to resolve development challenges.}
+	\resumeItemListEnd
+
+\resumeSubheading
+	{PixelForge Studios}{Austin, TX}
+	{Unity3D Game Developer (Full-time)}{Sep 2021 - Apr 2022}
+	\resumeItemListStart
+        \item {Handled all aspects of game lifecycle including design and development. Worked with studio teams to implement features, participated in reviews, suggested improvements, and ensured code quality.}
+	\resumeItemListEnd
+
+\resumeSubheading
+	{BrightWave Solutions}{San Francisco, CA}
+	{Full-Stack Web Developer (Full-time)}{Feb 2019 - Aug 2021}
+	\resumeItemListStart
+       \item {Designed and developed web applications using Laravel. Built client sites from design handoffs, created efficient modules, provided technical support, managed servers, and configured dependencies. Used Git for version control.}
+	\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeSubItem{\href{https://example.com}{TravelMate - Online Ticket Platform}}{A digital platform offering ticket booking for buses, flights, and ferries. Designed to meet the diverse travel needs of users nationwide.}
+\resumeSubItem{\href{https://github.com/example/texedit}{TexEdit}}{A lightweight, open-source text editor for developers and writers with syntax highlighting, dark mode, and customizable fonts.}
+\resumeSubItem{\href{https://example.com/elearning}{eLearnPro}}{A learning management system offering interactive courses, quizzes, and analytics for educators and students.}
+\resumeSubItem{CryptoXchange}{A cryptocurrency trading platform integrated with Binance API to provide real-time prices and secure transactions.}
+\resumeSubItem{\href{https://example.com/game}{Cricket Challenge}}{A mobile cricket game with unique gameplay modes and online leaderboards.}
+\resumeSubHeadingListEnd
+
+%------------------------
+\section*{Certifications}
+\begin{itemize}
+    \item AWS Certified Solutions Architect – Associate
+    \item Scrum Master Certified (SMC)
+    \item Google Professional Cloud Developer
+\end{itemize}
+
+%------------------------
+\section*{Achievements}
+\begin{itemize}
+    \item Speaker at DevCon 2023 on “Scaling React Apps for Millions of Users”.
+    \item Hackathon winner – Built an AI-powered chatbot in under 48 hours.
+    \item Published technical articles on Medium with over 50k total reads.
+\end{itemize}
+
+\end{document}
